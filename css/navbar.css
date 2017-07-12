@@ -8,13 +8,17 @@ body {
 }
 
 #logo{
-    width: 10%;
+    width: 30%;
 }
 
 #logo-social{
-  width: 30%;
+  width: 50%;
   float: left;
+  top:25%;
+  margin-top:15%;
+  
 }
 #logo-social-left{
-  width: 30%;
+  width: 50%;
+  margin-top:15%;
 }
