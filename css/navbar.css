@@ -34,3 +34,19 @@ img{
   -webkit-border-radius: 6px;
   border-radius: 6px;
 }
+
+.jumbotron h1{
+  color: #397F3B;
+  text-shadow: 3px 1px 4px rgba(25, 0, 32, 0.42);
+}
+
+/* FOOTER */
+
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.bg-lightgray
+{
+    background-color: #F6F6F6;
+}
+
+
+

@@ -2,6 +2,8 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
@@ -46,12 +48,19 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  top: 1%;
 }
+.carousel-caption h2{
+  font-family: 'Hammersmith One', sans-serif;
+  text-shadow: 3px 1px 4px rgba(25, 0, 32, 1);
+  font-size: 5.5em;
+}
+
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 400px;
-  background-color: #777;
+  background-color: #A8CCAA;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -119,7 +128,7 @@ body {
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 2em;
     line-height: 1.4;
   }
 
